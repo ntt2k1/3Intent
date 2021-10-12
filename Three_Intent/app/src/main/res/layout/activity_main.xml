@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:gravity="center"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/WebUri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex: https:/www.google.com"
+        />
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open the website"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Event"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        />
+    <EditText
+        android:id="@+id/tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tittle"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/Descrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrip"
+        android:layout_marginTop="10dp"
+        />
+    <CheckBox
+        android:id="@+id/CAllday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All day"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/btnAddEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture a Photo"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        />
+    <ImageView
+        android:id="@+id/displayCapture"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Capture" />
+
+
+
+
+</LinearLayout>
